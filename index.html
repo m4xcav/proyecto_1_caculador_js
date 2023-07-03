@@ -31,6 +31,7 @@
                   cantidad = Number(cantidad.value);
                   color = color.value
                   textotal = cantidad*400000
+                  textotal = textotal.toLocaleString();
                   total.innerHTML=' $'+textotal
                   cont.innerHTML =' '+cantidad
                   dcolor.style.backgroundColor = color
