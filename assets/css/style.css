@@ -1,0 +1,37 @@
+body{
+    margin: 0;
+    padding: 0;
+}
+.dbody{
+    margin: 10%;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+.contenedor{
+    display: flex;
+}
+.continfo{
+    margin: 100px;
+}
+.dcontinfo{
+    padding-left: 1em;
+    display: flex;
+    align-items: center;
+    gap: 1em;
+}
+.colorchange{
+    background-color: black;
+    width: 25px;
+    height: 25px;
+    border-radius: 50%;
+    border: 1px solid black;
+}
+.colors{
+    width: 75%;
+}
+.card{
+    width: 18rem;
+    background-color: green;
+    color: white;
+}
