@@ -23,14 +23,14 @@
                   </select>
                   <p class="precio">Precio: 400000</p>
                   <a href="#" class="btn btn-primary" onclick="
-                  cantidad = document.querySelector('.canti')
-                  color = document.querySelector('.colors')
-                  total = document.querySelector('.total')
-                  dcolor = document.querySelector('.colorchange')
-                  cont = document.querySelector('.cont')
-                  cantidad = Number(cantidad.value);
+                  const cantidad = document.querySelector('.canti')
+                  let color = document.querySelector('.colors')
+                  const total = document.querySelector('.total')
+                  const dcolor = document.querySelector('.colorchange')
+                  const cont = document.querySelector('.cont')
+                  const cantidad = Number(cantidad.value);
                   color = color.value
-                  textotal = cantidad*400000
+                  let textotal = cantidad*400000
                   textotal = textotal.toLocaleString();
                   total.innerHTML=' $'+textotal
                   cont.innerHTML =' '+cantidad
